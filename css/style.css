@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8e0e0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    font-family: Georgia;
+}
+
+header {
+    padding: 40px 20px;
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+}
+
+header .brand {
+    display: inline-block;
+}
+
+header .brand p.main {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+header .brand p.main span {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+header .brand p.sub {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+header nav {
+    float: right;
+    background: #e2494b;
+    border-radius: 10px;
+}
+
+header nav ul {
+    padding: 15px 20px;
+    position: relative;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+}
+
+header nav ul li:last-child {
+    padding-right: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 13px;
+}
+
+header nav ul li a:hover {
+    color: #ee9395;
+}
+
+.carousel {
+    width: 964px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.carousel blockquote {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    font-style: italic;
+    margin-bottom: 45px;
+    width: 720px;
+}
+
+.services {
+    width: 964px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.services>button {
+    font-size: 18px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background: #e2494b;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 593px;
+    top: 122%;
+}
+
+.services .content {
+    display: inline-block;
+    margin-top: 52px;
+    margin-right: 32px;
+    width: 293px;
+}
+
+.services .content:last-child {
+    margin-right: 10px;
+}
+
+.services .content h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #666666;
+}
+
+.services .content p {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #979797;
+    line-height: 19px;
+}
+
+.services .content a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #e2494b;
+}
+
+.players {
+    width: 964px;
+    margin: 0 auto;
+    padding-bottom: 66px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.players>button {
+    font-size: 18px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background: #e2494b;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 593px;
+    top: 163%;
+}
+
+.players .card {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 56px;
+    width: 180px;
+}
+
+.players .card:last-child {
+    margin-right: 0;
+}
+
+.players .card img {
+    margin-bottom: 15px;
+}
+
+.players .card p.name {
+    font-size: 13px;
+    color: #979797;
+    margin-bottom: 19px;
+}
+
+.players .card p.name span {
+    font-weight: bold;
+}
+
+.players .card p.des {
+    font-size: 13px;
+    color: #979797;
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.players .card a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #e2494b;
+}
+
+.latest {
+    width: 964px;
+    margin: 0 auto;
+}
+
+.latest>button {
+    font-size: 18px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    background: #e2494b;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 593px;
+    top: 235%;
+}
+
+.latest img {
+    margin: 54px 19px 50px 0px;
+}
+
+.latest img:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background: #e2e2e2;
+    padding: 40px 20px 0px 20px;
+}
+
+footer .upper-footer {
+    width: 963px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+footer .upper-footer .up {
+    width: 963px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 80px;
+}
+
+footer .upper-footer .up .left {
+    width: 463px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+footer .upper-footer .up .left>h2 {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 22px;
+}
+
+footer .upper-footer .up .left .content h2,
+footer .upper-footer .up .left .content p {
+    display: inline-block;
+    position: absolute;
+    width: 335px;
+    margin-left: 21px;
+}
+
+footer .upper-footer .up .left .content h2 {
+    font-size: 13px;
+    color: #e2494b;
+    margin-top: 25px;
+}
+
+footer .upper-footer .up .left .content p {
+    font-size: 12px;
+    color: #999999;
+    margin-top: 50px;
+}
+
+footer .upper-footer .up .middle {
+    width: 190px;
+    display: inline-block;
+}
+
+footer .upper-footer .up .middle h2 {
+    font-size: 16px;
+    color: #333333;
+    position: absolute;
+    top: 288%;
+}
+
+footer .upper-footer .up .middle pre {
+    margin-top: -222px;
+    position: absolute;
+    margin-left: -186px;
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 22px;
+    line-height: 20px;
+}
+
+footer .upper-footer .up .middle pre span:first-child {
+    color: #e2494b;
+}
+
+footer .upper-footer .up .middle pre span:last-child {
+    font-weight: bold;
+}
+footer .upper-footer .up .right h2{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+footer .upper-footer .up .right input{
+    font-size: 13px;
+    color: #989898;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+    width: 224px;
+}
+footer .upper-footer .up .right textarea{
+    font-size: 13px;
+    color: #989898;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+    width: 224px;
+    resize: none;
+    height: 110px;
+}
+footer .upper-footer .up .right button{
+    width: 80px;
+    height: 30px;
+    background: #e2494b;
+    color: #ffffff;
+    border-radius: 10px;
+    border-width: 0px;
+}
+footer .upper-footer .up .right {
+    width: 226px;
+    display: inline-block;
+    position: absolute;
+    top: 288%;
+    margin-left: 46px;
+}
+footer .footer{
+    padding: 10px;
+}
+footer .footer p{
+    font-size: 12px;
+    color: #999999;
+}
+footer .footer p.left{
+    display: inline;
+}
+footer .footer p.right{
+    float: right;
+}
